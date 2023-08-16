@@ -21,7 +21,7 @@ function adicionaLinha() {
     const inputNomeAtividade = document.getElementById('nome-atividade')
     const inputNotaAtividade = document.getElementById('nota-atividade')
 
-    if (atividaes.includes(inputNomeAtividade.value)) {
+    if (atividades.includes(inputNomeAtividade.value)) {
         alert(`A atividade ${inputNomeAtividade.value} já foi inserida`)
     }
     else {
